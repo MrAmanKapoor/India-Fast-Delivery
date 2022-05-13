@@ -443,6 +443,7 @@ footer {
     }
 
     .tracking-field button {
+        margin-top: 10%;
         width: 25vw;
     }
 
@@ -486,7 +487,7 @@ footer {
     }
 
     .quote-form {
-        width: 60vw;
+        width: 90vw;
         margin: auto;
         padding-top: 12%;
     }
@@ -501,7 +502,7 @@ footer {
 
     .services .services-row {
         gap: 2%;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto;
     }
 
     .content-col p {
