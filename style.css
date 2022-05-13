@@ -37,6 +37,10 @@ body {
     height: 8ch;
 }
 
+.nav {
+    width: 60vw;
+}
+
 .header button {
     width: 12vw;
     height: 4ch;
@@ -407,18 +411,35 @@ footer {
 @media(max-width:600px) {
     .header {
         width: 100%;
+        flex-direction: column;
+
     }
 
     .header img {
-        width: 25vw;
+        width: 35vw;
         height: 6ch;
     }
 
+    .nav {
+        width: 100vw;
+        text-align: center;
+        padding: 2%;
+        padding-bottom: 1%;
+    }
+
     .header a {
-        font-size: 1.6ch;
-        width: auto;
-        padding-right: 1%;
-        margin-right: 0%;
+        font-size: 1.8ch;
+        background-color: rgba(255, 255, 255, 0.301);
+        color: black;
+        text-align: center;
+        padding: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+        border-radius: 10px;
+    }
+    .header a:hover
+    {
+        color:white;
     }
 
     .header button {
@@ -436,14 +457,22 @@ footer {
     .container h4 {
         font-size: 9vw;
     }
-    .tracking-field{margin-top: 10%;}
+
+    .tracking-field {
+        margin-top: 10%;
+    }
+
     .tracking-field input {
-        width: 55vw;
+        width: 65vw;
+        border-radius: 10px;
+        margin-bottom: 2%;
     }
 
     .tracking-field button {
-        
-        width: 27vw;
+
+        width: 37vw;
+        display: block;
+        margin: auto;
     }
 
     .about {
