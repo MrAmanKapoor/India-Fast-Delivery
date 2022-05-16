@@ -245,7 +245,6 @@ body {
     font-size: 20px;
     background-color: black;
     color: white;
-    cursor:pointer;
 }
 
 .services {
@@ -409,10 +408,11 @@ footer {
 }
 
 
-@media(max-width:600px) {
+@media(max-width:700px) {
     .header {
         width: 100%;
         flex-direction: column;
+        padding-left: 0%;
 
     }
 
@@ -426,21 +426,24 @@ footer {
         text-align: center;
         padding: 2%;
         padding-bottom: 1%;
+        background-color: rgba(255, 255, 255, 0.301);
+        margin: 0;
     }
 
     .header a {
-        font-size: 1.8ch;
-        background-color: rgba(255, 255, 255, 0.301);
+        font-size: 2ch;
         color: black;
         text-align: center;
         padding: 1%;
-        padding-left: 1%;
-        padding-right: 1%;
-        border-radius: 10px;
+        padding-left: 3%;
+        padding-right: 3%;
+        margin-right: 0;
+        width: auto;
     }
     .header a:hover
     {
         color:white;
+        border-bottom: 1.5px solid white;
     }
 
     .header button {
@@ -474,6 +477,7 @@ footer {
         width: 37vw;
         display: block;
         margin: auto;
+        border-radius: 18px;
     }
 
     .about {
